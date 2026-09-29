@@ -1,4 +1,3 @@
-# main.py
 
 import file_handler
 import records
@@ -6,7 +5,6 @@ import display
 import menu
 
 def main():
-    # 1. Program shuru hote hi purana data load karo
     all_records = file_handler.load_records()
     
     while True:
@@ -34,5 +32,4 @@ def main():
         else:
             print("Invalid choice! Please enter a number between 1 and 6.")
 
-# Main function ko chalao
 main()
